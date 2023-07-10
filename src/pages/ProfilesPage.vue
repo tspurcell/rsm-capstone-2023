@@ -67,7 +67,31 @@
             <div class="text-h6">Experiences</div>
           </q-card-section>
 
-          <review-card v-for="profile in profiles" :headline="`${profile.first_name[0]}. ${profile.last_name[0]}.`"
+          <q-card-section>
+            <q-btn label="Add Experience" to="/" color="primary"></q-btn>
+          </q-card-section>
+
+          <q-card-section>
+            <div class="text-bold text-h5">Top experiences that match your search criteria</div>
+          </q-card-section>
+
+          <q-card-section class="row q-gutter-md">
+            <q-select dense outlined style="width: 200px" label="University" v-model="university"
+                      :options="university_options"
+                      emit-value clearable></q-select>
+            <q-select dense outlined style="width: 200px" label="Major" v-model="major" :options="major_options"
+                      emit-value clearable></q-select>
+            <q-select dense outlined style="width: 200px" label="GPA" v-model="gpa"
+                      :options="gpa_options" emit-value clearable></q-select>
+            <q-select dense outlined style="width: 200px" label="Current Class" v-model="current_class"
+                      :options="current_class_options" emit-value clearable></q-select>
+            <q-select dense outlined style="width: 200px" label="Tech Level" v-model="tech_level"
+                      :options="tech_level_options" emit-value clearable></q-select>
+            <q-select dense outlined style="width: 200px" label="Interest" v-model="interest"
+                      :options="interest_options" emit-value clearable></q-select>
+          </q-card-section>
+
+          <review-card v-for="profile in filtered_profiles" :headline="`${profile.first_name[0]}. ${profile.last_name[0]}.`"
                        :rating="profile.rating" :date="new Date()" :review_text="profile.review"></review-card>
         </q-card>
 
@@ -78,7 +102,7 @@
 </template>
 
 <script>
-import { defineComponent, ref } from 'vue'
+import { computed, defineComponent, ref } from 'vue'
 import Criteria from "src/composables/Criteria";
 import Profiles from "src/composables/Profiles";
 import ReviewCard from "components/ReviewCard.vue";
@@ -89,8 +113,60 @@ export default defineComponent({
   setup() {
 
     const { profiles } = Profiles();
+    const {
+      current_class_options,
+      university_options,
+      major_options,
+      gpa_options,
+      tech_level_options,
+      interest_options
+    } = Criteria();
+
+    const university = ref(null);
+    const major = ref(null);
+    const current_class = ref(null);
+    const gpa = ref(null);
+    const tech_level = ref(null);
+    const interest = ref(null);
+
+    const filtered_profiles = computed(() => {
+      let result = [...profiles.value];
+      if (university.value) {
+        result = result.filter(x => x.university === university.value);
+      }
+      if (major.value) {
+        result = result.filter(x => x.major === major.value);
+      }
+      if (current_class.value) {
+        result = result.filter(x => x.current_class === current_class.value);
+      }
+      if (gpa.value) {
+        result = result.filter(x => x.gpa === gpa.value);
+      }
+      if (tech_level.value) {
+        result = result.filter(x => x.tech_level === tech_level.value);
+      }
+      if (interest.value) {
+        result = result.filter(x => x.interest === interest.value);
+      }
+
+      return result;
+    })
     return {
-      profiles
+      filtered_profiles,
+
+      current_class,
+      current_class_options,
+      university,
+      university_options,
+      major,
+      major_options,
+      gpa,
+      gpa_options,
+      tech_level,
+      tech_level_options,
+      interest,
+      interest_options
     }
   }
 })
