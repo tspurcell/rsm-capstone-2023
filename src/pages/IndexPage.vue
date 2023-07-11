@@ -5,25 +5,22 @@
     <q-img style="max-height: 700px" class="gt-sm"
            src="../assets/high_five.webp">
       <div class="absolute-bottom text-h2">
-        Internship Opportunities at Lurie Children's
+        Internship and Externships at Lurie Children's
       </div>
     </q-img>
     <q-img style="max-height: 500px" class="lt-sm"
            src="../assets/high_five.webp">
       <div class="absolute-bottom text-subtitle1">
-        Internship Opportunities at Lurie Children's
+        Internship and Externships at Lurie Children's
       </div>
     </q-img>
 
     <div class="row q-pa-xl justify-center bg-primary text-white gt-sm">
       <div class="col-12 col-md-3">
-        <div class="text-h4 text-center">Allies in Our Mission</div>
+        <div class="text-h4 text-center">Quality Education</div>
         <div class="text-subtitle1">
-          Every role at Lurie Children's contributes to our mission of improving the health and well-being of all
-          children, and our allied health employees are no exception. With our family-centered approach to child care,
-          you can truly see the ripple effect of positivity that your work brings to the community. Through the
-          collaboration, communication, and recognition you receive from your peers and leaders at Lurie Children's, you
-          will find that you are an ally in something truly special.
+          Quality education is inseparable from our quality patient care. Lurie Children's is the pediatric teaching hospital for Northwestern University Feinberg School of Medicine. 
+          Learn more about our internship and externship opportunities below.
         </div>
       </div>
       <div class="col-2"></div>
@@ -41,13 +38,10 @@
 
     <div class="row q-pa-xl justify-center bg-primary text-white lt-md">
       <div class="col-12 col-md-3">
-        <div class="text-h6 text-center">Allies in Our Mission</div>
+        <div class="text-h6 text-center">Quality Education</div>
         <div class="text-caption">
-          Every role at Lurie Children's contributes to our mission of improving the health and well-being of all
-          children, and our allied health employees are no exception. With our family-centered approach to child care,
-          you can truly see the ripple effect of positivity that your work brings to the community. Through the
-          collaboration, communication, and recognition you receive from your peers and leaders at Lurie Children's, you
-          will find that you are an ally in something truly special.
+          Quality education is inseparable from our quality patient care. Lurie Children's is the pediatric teaching hospital for Northwestern University Feinberg School of Medicine. 
+          Learn more about our internship and externship opportunities below.
         </div>
       </div>
       <div class="col-2"></div>
