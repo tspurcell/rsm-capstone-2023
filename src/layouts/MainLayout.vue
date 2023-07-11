@@ -6,11 +6,11 @@
         <q-toolbar-title>
           <q-img style="max-width: 300px" fit="contain"
                  src="../assets/logo.png"></q-img>
-          <q-btn flat padding="15px 45px" color="primary" label="Featured Jobs"></q-btn>
-          <q-btn flat padding="15px 45px" color="primary" label="Diversity & Inclusion"></q-btn>
-          <q-btn flat padding="15px 45px" color="primary" label="Employee Stories"></q-btn>
-          <q-btn flat padding="15px 45px" color="primary" label="Benefits"></q-btn>
-          <q-btn flat padding="15px 45px" color="primary" label="Search Jobs"></q-btn>
+          <q-btn flat padding="15px 45px" color="primary" label="For Healthcare Professionals"></q-btn>
+          <q-btn flat padding="15px 45px" color="primary" label="Education"></q-btn>
+          <q-btn flat padding="15px 45px" color="primary" label="Medical Education & Training"></q-btn>
+          <q-btn flat padding="15px 45px" color="primary" label="Internships and Externships"></q-btn>
+          <q-btn flat padding="15px 45px" color="primary" label="Training Programs"></q-btn>
         </q-toolbar-title>
       </q-toolbar>
     </q-header>
@@ -20,11 +20,11 @@
         <q-img fit="contain"
                src="../assets/logo.png"></q-img>
       </div>
-      <q-btn flat padding="15px 45px" color="primary" label="Featured Jobs"></q-btn>
-      <q-btn flat padding="15px 45px" color="primary" label="Diversity & Inclusion"></q-btn>
-      <q-btn flat padding="15px 45px" color="primary" label="Employee Stories"></q-btn>
-      <q-btn flat padding="15px 45px" color="primary" label="Benefits"></q-btn>
-      <q-btn flat padding="15px 45px" color="primary" label="Search Jobs"></q-btn>
+      <q-btn flat padding="15px 45px" color="primary" label="For Healthcare Professionals"></q-btn>
+      <q-btn flat padding="15px 45px" color="primary" label="Education"></q-btn>
+      <q-btn flat padding="15px 45px" color="primary" label="Medical Education & Training"></q-btn>
+      <q-btn flat padding="15px 45px" color="primary" label="Internships and Externships"></q-btn>
+      <q-btn flat padding="15px 45px" color="primary" label="Training Programs"></q-btn>
     </q-drawer>
 
     <q-page-container>
