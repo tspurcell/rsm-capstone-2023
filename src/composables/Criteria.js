@@ -7,11 +7,11 @@ const current_class_options = ref([
 ])
 
 const university_options = ref([
-    'UT Austin',
-    'UT Dallas',
-    'Texas A&M',
-    'Baylor',
-    'Rice'
+    'Private University',
+    'Public University',
+    'Community College',
+    'Ivy League School',
+    'Liberal Arts College'
 ])
 
 const major_options = ref([
@@ -36,12 +36,12 @@ const tech_level_options = ref([
 ])
 
 const interest_options = ref([
-    'Nursing',
-    'Advanced Practice',
-    'Allied Health',
-    'Support Services',
-    'Research',
-    'Leadership'
+    'Child Life',
+    'Clinical Psychology',
+    'Dietetic',
+    'Art Therapy',
+    'Music Therapy',
+    'Recreation Therapy'
 ])
 
 export default () => {
