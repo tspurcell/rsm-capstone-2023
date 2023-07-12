@@ -5,13 +5,13 @@
     <q-img style="max-height: 700px" class="gt-sm"
            src="../assets/high_five.webp">
       <div class="absolute-bottom text-h2">
-        Internship and Externships at Lurie Children's
+        Internships at Lurie Children's
       </div>
     </q-img>
     <q-img style="max-height: 500px" class="lt-sm"
            src="../assets/high_five.webp">
       <div class="absolute-bottom text-subtitle1">
-        Internship and Externships at Lurie Children's
+        Internships at Lurie Children's
       </div>
     </q-img>
 
