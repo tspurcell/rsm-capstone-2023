@@ -2,8 +2,8 @@ import { ref } from "vue";
 
 const profiles = ref([
     {
-        first_name: 'Terri',
-        last_name: 'Purcell',
+        first_name: 'James',
+        last_name: 'Smith',
         current_class: 'Senior',
         university: 'UT Dallas',
         major: 'MIS',
@@ -17,8 +17,8 @@ const profiles = ref([
           a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
     },
     {
-        first_name: 'John',
-        last_name: 'Doe',
+        first_name: 'Robert',
+        last_name: 'Johnson',
         current_class: 'Sophomore',
         university: 'UT Austin',
         major: 'Human Resources',
@@ -32,8 +32,8 @@ const profiles = ref([
           a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'    
     },
     {
-        first_name: 'John',
-        last_name: 'Doe',
+        first_name: 'Patricia',
+        last_name: 'Williams',
         current_class: 'Sophomore',
         university: 'UT Austin',
         major: 'Human Resources',
@@ -47,8 +47,8 @@ const profiles = ref([
           a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'    
     },
     {
-        first_name: 'John',
-        last_name: 'Doe',
+        first_name: 'Mary',
+        last_name: 'Brown',
         current_class: 'Sophomore',
         university: 'UT Austin',
         major: 'Human Resources',
@@ -62,8 +62,8 @@ const profiles = ref([
           a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'    
     },
     {
-        first_name: 'John',
-        last_name: 'Doe',
+        first_name: 'Jennifer',
+        last_name: 'Jones',
         current_class: 'Sophomore',
         university: 'UT Austin',
         major: 'Human Resources',
@@ -77,8 +77,8 @@ const profiles = ref([
           a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'    
     },
     {
-        first_name: 'John',
-        last_name: 'Doe',
+        first_name: 'Linda',
+        last_name: 'Garcia',
         current_class: 'Sophomore',
         university: 'UT Austin',
         major: 'Human Resources',
@@ -92,8 +92,8 @@ const profiles = ref([
           a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'    
     },
     {
-        first_name: 'John',
-        last_name: 'Doe',
+        first_name: 'Michael',
+        last_name: 'Miller',
         current_class: 'Sophomore',
         university: 'UT Austin',
         major: 'Human Resources',
@@ -107,8 +107,8 @@ const profiles = ref([
           a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'    
     },
     {
-        first_name: 'John',
-        last_name: 'Doe',
+        first_name: 'Elizabeth',
+        last_name: 'Davis',
         current_class: 'Sophomore',
         university: 'UT Austin',
         major: 'Human Resources',
@@ -122,8 +122,8 @@ const profiles = ref([
           a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'    
     },
     {
-        first_name: 'John',
-        last_name: 'Doe',
+        first_name: 'David',
+        last_name: 'Rodriguez',
         current_class: 'Sophomore',
         university: 'UT Austin',
         major: 'Human Resources',
@@ -137,8 +137,8 @@ const profiles = ref([
           a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'    
     },
     {
-        first_name: 'John',
-        last_name: 'Doe',
+        first_name: 'Barbara',
+        last_name: 'Wilson',
         current_class: 'Sophomore',
         university: 'UT Austin',
         major: 'Human Resources',
@@ -152,8 +152,8 @@ const profiles = ref([
           a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'    
     },
     {
-        first_name: 'John',
-        last_name: 'Doe',
+        first_name: 'Susan',
+        last_name: 'Lopez',
         current_class: 'Sophomore',
         university: 'UT Austin',
         major: 'Human Resources',
@@ -167,8 +167,8 @@ const profiles = ref([
           a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'    
     },
     {
-        first_name: 'John',
-        last_name: 'Doe',
+        first_name: 'Jessica',
+        last_name: 'Hernandez',
         current_class: 'Sophomore',
         university: 'UT Austin',
         major: 'Human Resources',
@@ -182,8 +182,8 @@ const profiles = ref([
           a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'    
     },
     {
-        first_name: 'John',
-        last_name: 'Doe',
+        first_name: 'William',
+        last_name: 'Anderson',
         current_class: 'Sophomore',
         university: 'UT Austin',
         major: 'Human Resources',
@@ -197,8 +197,8 @@ const profiles = ref([
           a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'    
     },
     {
-        first_name: 'John',
-        last_name: 'Doe',
+        first_name: 'Richard',
+        last_name: 'Thomas',
         current_class: 'Sophomore',
         university: 'UT Austin',
         major: 'Human Resources',
@@ -212,8 +212,8 @@ const profiles = ref([
           a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'    
     },
     {
-        first_name: 'John',
-        last_name: 'Doe',
+        first_name: 'Sarah',
+        last_name: 'Lee',
         current_class: 'Sophomore',
         university: 'UT Austin',
         major: 'Human Resources',
@@ -227,8 +227,8 @@ const profiles = ref([
           a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'    
     },
     {
-        first_name: 'John',
-        last_name: 'Doe',
+        first_name: 'Karen',
+        last_name: 'Martin',
         current_class: 'Sophomore',
         university: 'UT Austin',
         major: 'Human Resources',
@@ -242,8 +242,8 @@ const profiles = ref([
           a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'    
     },
     {
-        first_name: 'John',
-        last_name: 'Doe',
+        first_name: 'Joseph',
+        last_name: 'Perez',
         current_class: 'Sophomore',
         university: 'UT Austin',
         major: 'Human Resources',
@@ -257,8 +257,8 @@ const profiles = ref([
           a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'    
     },
     {
-        first_name: 'Terri',
-        last_name: 'Purcell',
+        first_name: 'Lisa',
+        last_name: 'Young',
         current_class: 'Senior',
         university: 'UT Dallas',
         major: 'MIS',
@@ -272,8 +272,8 @@ const profiles = ref([
           a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
     },
     {
-        first_name: 'Terri',
-        last_name: 'Purcell',
+        first_name: 'Thomas',
+        last_name: 'Lewis',
         current_class: 'Senior',
         university: 'UT Dallas',
         major: 'MIS',
@@ -287,8 +287,8 @@ const profiles = ref([
           a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
     },
     {
-        first_name: 'Terri',
-        last_name: 'Purcell',
+        first_name: 'Nancy',
+        last_name: 'Wright',
         current_class: 'Senior',
         university: 'UT Dallas',
         major: 'MIS',
@@ -302,8 +302,8 @@ const profiles = ref([
           a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
     },
     {
-        first_name: 'Terri',
-        last_name: 'Purcell',
+        first_name: 'Christopher',
+        last_name: 'King',
         current_class: 'Senior',
         university: 'UT Dallas',
         major: 'MIS',
@@ -317,8 +317,8 @@ const profiles = ref([
           a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
     },
     {
-        first_name: 'Terri',
-        last_name: 'Purcell',
+        first_name: 'Sandra',
+        last_name: 'Adams',
         current_class: 'Senior',
         university: 'UT Dallas',
         major: 'MIS',
@@ -332,8 +332,8 @@ const profiles = ref([
           a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
     },
     {
-        first_name: 'Terri',
-        last_name: 'Purcell',
+        first_name: 'Ashley',
+        last_name: 'Carter',
         current_class: 'Senior',
         university: 'UT Dallas',
         major: 'MIS',
@@ -347,8 +347,8 @@ const profiles = ref([
           a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
     },
     {
-        first_name: 'Terri',
-        last_name: 'Purcell',
+        first_name: 'Charles',
+        last_name: 'Roberts',
         current_class: 'Senior',
         university: 'UT Dallas',
         major: 'MIS',
@@ -362,8 +362,8 @@ const profiles = ref([
           a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
     },
     {
-        first_name: 'Terri',
-        last_name: 'Purcell',
+        first_name: 'Emily',
+        last_name: 'Reyes',
         current_class: 'Senior',
         university: 'UT Dallas',
         major: 'MIS',
