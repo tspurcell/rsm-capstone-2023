@@ -19,7 +19,7 @@ const profiles = ref([
     {
         first_name: 'Robert',
         last_name: 'Johnson',
-        current_class: 'Sophomore',
+        current_class: 'Senior',
         university: 'UT Austin',
         major: 'Human Resources',
         gpa: '3.1 - 3.4',
@@ -34,7 +34,7 @@ const profiles = ref([
     {
         first_name: 'Patricia',
         last_name: 'Williams',
-        current_class: 'Sophomore',
+        current_class: 'Senior
         university: 'UT Austin',
         major: 'Human Resources',
         gpa: '3.1 - 3.4',
@@ -64,7 +64,7 @@ const profiles = ref([
     {
         first_name: 'Jennifer',
         last_name: 'Jones',
-        current_class: 'Sophomore',
+        current_class: 'Junior',
         university: 'UT Austin',
         major: 'Human Resources',
         gpa: '3.1 - 3.4',
@@ -79,7 +79,7 @@ const profiles = ref([
     {
         first_name: 'Linda',
         last_name: 'Garcia',
-        current_class: 'Sophomore',
+        current_class: 'Senior',
         university: 'UT Austin',
         major: 'Human Resources',
         gpa: '3.1 - 3.4',
@@ -109,7 +109,7 @@ const profiles = ref([
     {
         first_name: 'Elizabeth',
         last_name: 'Davis',
-        current_class: 'Sophomore',
+        current_class: 'Junior',
         university: 'UT Austin',
         major: 'Human Resources',
         gpa: '3.1 - 3.4',
@@ -124,7 +124,7 @@ const profiles = ref([
     {
         first_name: 'David',
         last_name: 'Rodriguez',
-        current_class: 'Sophomore',
+        current_class: 'Senior',
         university: 'UT Austin',
         major: 'Human Resources',
         gpa: '3.1 - 3.4',
@@ -139,7 +139,7 @@ const profiles = ref([
     {
         first_name: 'Barbara',
         last_name: 'Wilson',
-        current_class: 'Sophomore',
+        current_class: 'Senior',
         university: 'UT Austin',
         major: 'Human Resources',
         gpa: '3.1 - 3.4',
@@ -169,7 +169,7 @@ const profiles = ref([
     {
         first_name: 'Jessica',
         last_name: 'Hernandez',
-        current_class: 'Sophomore',
+        current_class: 'Senior',
         university: 'UT Austin',
         major: 'Human Resources',
         gpa: '3.1 - 3.4',
@@ -184,7 +184,7 @@ const profiles = ref([
     {
         first_name: 'William',
         last_name: 'Anderson',
-        current_class: 'Sophomore',
+        current_class: 'Senior',
         university: 'UT Austin',
         major: 'Human Resources',
         gpa: '3.1 - 3.4',
@@ -199,7 +199,7 @@ const profiles = ref([
     {
         first_name: 'Richard',
         last_name: 'Thomas',
-        current_class: 'Sophomore',
+        current_class: 'Junior',
         university: 'UT Austin',
         major: 'Human Resources',
         gpa: '3.1 - 3.4',
@@ -229,7 +229,7 @@ const profiles = ref([
     {
         first_name: 'Karen',
         last_name: 'Martin',
-        current_class: 'Sophomore',
+        current_class: 'Senior',
         university: 'UT Austin',
         major: 'Human Resources',
         gpa: '3.1 - 3.4',
@@ -244,7 +244,7 @@ const profiles = ref([
     {
         first_name: 'Joseph',
         last_name: 'Perez',
-        current_class: 'Sophomore',
+        current_class: 'Junior',
         university: 'UT Austin',
         major: 'Human Resources',
         gpa: '3.1 - 3.4',
@@ -289,7 +289,7 @@ const profiles = ref([
     {
         first_name: 'Nancy',
         last_name: 'Wright',
-        current_class: 'Senior',
+        current_class: 'Sophomore',
         university: 'UT Dallas',
         major: 'MIS',
         gpa: '3.5 and above',
@@ -349,7 +349,7 @@ const profiles = ref([
     {
         first_name: 'Charles',
         last_name: 'Roberts',
-        current_class: 'Senior',
+        current_class: 'Junior',
         university: 'UT Dallas',
         major: 'MIS',
         gpa: '3.5 and above',
