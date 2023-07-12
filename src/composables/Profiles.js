@@ -11,10 +11,7 @@ const profiles = ref([
         tech_level: 'Novice',
         interest: 'Clinical Psychology',
         rating: 5,
-        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. 
-          Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc, 
-          nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis, 
-          a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
+        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc,nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis,a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
     },
     {
         first_name: 'Robert',
@@ -26,25 +23,19 @@ const profiles = ref([
         tech_level: 'Intermediate',
         rating: 4,
         interest: 'Support Services',
-        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. 
-          Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc, 
-          nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis, 
-          a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'    
+    review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc,nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis,a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
     },
     {
         first_name: 'Patricia',
         last_name: 'Williams',
-        current_class: 'Senior
+        current_class: 'Senior',
         university: 'Community College',
         major: 'Human Resources',
         gpa: '3.1 - 3.4',
         tech_level: 'Intermediate',
         rating: 4,
         interest: 'Support Services',
-        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. 
-          Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc, 
-          nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis, 
-          a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'    
+        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc,nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis,a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
     },
     {
         first_name: 'Mary',
@@ -56,10 +47,7 @@ const profiles = ref([
         tech_level: 'Intermediate',
         rating: 4,
         interest: 'Support Services',
-        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. 
-          Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc, 
-          nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis, 
-          a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'    
+        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc,nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis,a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
     },
     {
         first_name: 'Jennifer',
@@ -71,10 +59,7 @@ const profiles = ref([
         tech_level: 'Intermediate',
         rating: 4,
         interest: 'Support Services',
-        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. 
-          Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc, 
-          nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis, 
-          a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'    
+        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc,nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis,a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
     },
     {
         first_name: 'Linda',
@@ -86,10 +71,7 @@ const profiles = ref([
         tech_level: 'Intermediate',
         rating: 4,
         interest: 'Support Services',
-        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. 
-          Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc, 
-          nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis, 
-          a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'    
+        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc,nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis,a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
     },
     {
         first_name: 'Michael',
@@ -101,10 +83,7 @@ const profiles = ref([
         tech_level: 'Intermediate',
         rating: 4,
         interest: 'Support Services',
-        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. 
-          Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc, 
-          nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis, 
-          a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'    
+        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc,nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis,a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
     },
     {
         first_name: 'Elizabeth',
@@ -116,10 +95,7 @@ const profiles = ref([
         tech_level: 'Intermediate',
         rating: 4,
         interest: 'Support Services',
-        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. 
-          Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc, 
-          nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis, 
-          a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'    
+        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc,nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis,a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
     },
     {
         first_name: 'David',
@@ -131,10 +107,7 @@ const profiles = ref([
         tech_level: 'Intermediate',
         rating: 4,
         interest: 'Support Services',
-        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. 
-          Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc, 
-          nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis, 
-          a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'    
+        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc,nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis,a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
     },
     {
         first_name: 'Barbara',
@@ -146,10 +119,7 @@ const profiles = ref([
         tech_level: 'Intermediate',
         rating: 4,
         interest: 'Support Services',
-        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. 
-          Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc, 
-          nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis, 
-          a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'    
+        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc,nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis,a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
     },
     {
         first_name: 'Susan',
@@ -161,10 +131,7 @@ const profiles = ref([
         tech_level: 'Intermediate',
         rating: 4,
         interest: 'Support Services',
-        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. 
-          Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc, 
-          nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis, 
-          a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'    
+        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc,nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis,a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
     },
     {
         first_name: 'Jessica',
@@ -176,10 +143,7 @@ const profiles = ref([
         tech_level: 'Intermediate',
         rating: 4,
         interest: 'Support Services',
-        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. 
-          Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc, 
-          nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis, 
-          a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'    
+        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc,nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis,a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
     },
     {
         first_name: 'William',
@@ -191,10 +155,7 @@ const profiles = ref([
         tech_level: 'Intermediate',
         rating: 4,
         interest: 'Support Services',
-        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. 
-          Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc, 
-          nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis, 
-          a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'    
+        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc,nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis,a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
     },
     {
         first_name: 'Richard',
@@ -206,10 +167,7 @@ const profiles = ref([
         tech_level: 'Intermediate',
         rating: 4,
         interest: 'Support Services',
-        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. 
-          Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc, 
-          nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis, 
-          a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'    
+        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc,nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis,a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
     },
     {
         first_name: 'Sarah',
@@ -221,10 +179,7 @@ const profiles = ref([
         tech_level: 'Intermediate',
         rating: 4,
         interest: 'Support Services',
-        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. 
-          Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc, 
-          nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis, 
-          a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'    
+        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc,nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis,a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
     },
     {
         first_name: 'Karen',
@@ -236,10 +191,7 @@ const profiles = ref([
         tech_level: 'Intermediate',
         rating: 4,
         interest: 'Support Services',
-        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. 
-          Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc, 
-          nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis, 
-          a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'    
+        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc,nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis,a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
     },
     {
         first_name: 'Joseph',
@@ -251,10 +203,7 @@ const profiles = ref([
         tech_level: 'Intermediate',
         rating: 4,
         interest: 'Support Services',
-        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. 
-          Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc, 
-          nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis, 
-          a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'    
+        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc,nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis,a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
     },
     {
         first_name: 'Lisa',
@@ -266,10 +215,7 @@ const profiles = ref([
         tech_level: 'Novice',
         interest: 'Clinical Psychology',
         rating: 5,
-        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. 
-          Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc, 
-          nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis, 
-          a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
+        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc,nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis,a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
     },
     {
         first_name: 'Thomas',
@@ -281,10 +227,7 @@ const profiles = ref([
         tech_level: 'Novice',
         interest: 'Clinical Psychology',
         rating: 5,
-        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. 
-          Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc, 
-          nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis, 
-          a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
+        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc,nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis,a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
     },
     {
         first_name: 'Nancy',
@@ -296,10 +239,7 @@ const profiles = ref([
         tech_level: 'Novice',
         interest: 'Clinical Psychology',
         rating: 5,
-        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. 
-          Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc, 
-          nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis, 
-          a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
+        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc,nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis,a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
     },
     {
         first_name: 'Christopher',
@@ -311,10 +251,7 @@ const profiles = ref([
         tech_level: 'Novice',
         interest: 'Clinical Psychology',
         rating: 5,
-        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. 
-          Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc, 
-          nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis, 
-          a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
+        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc,nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis,a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
     },
     {
         first_name: 'Sandra',
@@ -326,10 +263,7 @@ const profiles = ref([
         tech_level: 'Novice',
         interest: 'Clinical Psychology',
         rating: 5,
-        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. 
-          Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc, 
-          nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis, 
-          a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
+        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc,nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis,a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
     },
     {
         first_name: 'Ashley',
@@ -341,10 +275,7 @@ const profiles = ref([
         tech_level: 'Novice',
         interest: 'Clinical Psychology',
         rating: 5,
-        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. 
-          Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc, 
-          nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis, 
-          a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
+        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc,nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis,a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
     },
     {
         first_name: 'Charles',
@@ -356,10 +287,7 @@ const profiles = ref([
         tech_level: 'Novice',
         interest: 'Clinical Psychology',
         rating: 5,
-        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. 
-          Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc, 
-          nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis, 
-          a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
+        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc,nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis,a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
     },
     {
         first_name: 'Emily',
@@ -371,10 +299,7 @@ const profiles = ref([
         tech_level: 'Novice',
         interest: 'Clinical Psychology',
         rating: 5,
-        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. 
-          Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc, 
-          nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis, 
-          a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
+        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque felis orci, sed gravida nulla molestie in. Ut nec sapien nunc. Quisque finibus finibus nulla in malesuada. Donec nec velit vulputate, commodo ex et, consequat lacus. Maecenas vulputate, ipsum sit amet lobortis ornare, diam ex rhoncus nunc,nec aliquam odio ante quis neque. Nunc ut nisl vel odio venenatis molestie eu vel sem. Aliquam vitae venenatis libero. Etiam pharetra, elit eget tincidunt interdum, eros nisl mollis turpis,a ultrices turpis ligula sit amet leo. Aliquam ac tincidunt nulla. Nullam scelerisque metus sit amet ipsum imperdiet, sit amet iaculis velit euismod.'
     }
 ]);
 
