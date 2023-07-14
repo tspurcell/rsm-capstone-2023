@@ -1,17 +1,15 @@
 <template>
   <q-layout view="lHh Lpr lFf">
     <q-header class="bg-white q-pa-lg row">
-      <q-toolbar class="flex justify-between col-8">
+      <q-toolbar>
         <q-btn dense flat round color="primary" icon="menu" @click="toggleLeftDrawer"/>
         <q-toolbar-title>
           <q-img style="max-width: 300px" fit="contain"
                  src="../assets/logo.png"></q-img>
-          <q-btn flat padding="15px 45px" color="primary" label="For Healthcare Professionals"></q-btn>
-          <q-btn flat padding="15px 45px" color="primary" label="Education"></q-btn>
-          <q-btn flat padding="15px 45px" color="primary" label="Medical Education & Training"></q-btn>
-          <q-btn flat padding="15px 45px" color="primary" label="Internships and Externships"></q-btn>
-          <q-btn flat padding="15px 45px" color="primary" label="Training Programs"></q-btn>
         </q-toolbar-title>
+        <q-tabs class="gt-sm text-primary">
+          <q-route-tab v-for="page in pages" :label="page.label" :to="page.to"></q-route-tab>
+        </q-tabs>
       </q-toolbar>
     </q-header>
 
@@ -20,11 +18,15 @@
         <q-img fit="contain"
                src="../assets/logo.png"></q-img>
       </div>
-      <q-btn flat padding="15px 45px" color="primary" label="For Healthcare Professionals"></q-btn>
-      <q-btn flat padding="15px 45px" color="primary" label="Education"></q-btn>
-      <q-btn flat padding="15px 45px" color="primary" label="Medical Education & Training"></q-btn>
-      <q-btn flat padding="15px 45px" color="primary" label="Internships and Externships"></q-btn>
-      <q-btn flat padding="15px 45px" color="primary" label="Training Programs"></q-btn>
+      <q-list>
+        <template v-for="page in pages">
+          <q-item :to="page.to" clickable>
+            <q-item-section>{{ page.label }}</q-item-section>
+          </q-item>
+          <q-separator></q-separator>
+        </template>
+      </q-list>
+
     </q-drawer>
 
     <q-page-container>
@@ -40,9 +42,15 @@ export default defineComponent({
   name: 'MainLayout',
   setup() {
     const leftDrawerOpen = ref(false)
-
+    const pages = ref([
+      { label: 'Add Experience', to: '/' },
+      { label: 'View Experiences', to: '/profiles' },
+      { label: 'Add Wellness', to: '/wellness' },
+      { label: 'View Wellness', to: '/wellness/reports' }
+    ])
     return {
       leftDrawerOpen,
+      pages,
       toggleLeftDrawer() {
         leftDrawerOpen.value = !leftDrawerOpen.value
       }
