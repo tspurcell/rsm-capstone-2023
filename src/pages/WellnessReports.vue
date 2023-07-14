@@ -9,7 +9,7 @@ const { profiles } = Profiles();
 const selected_profile = ref(null);
 const filtered_wellness_assessments = computed(() => {
   if (selected_profile.value) {
-    const result = wellness_assessments.value.filter(x => x.profile_id === selected_profile.value.profile_id);
+    const result = selected_profile.value.wellness_assessments.sort((a, b) => a.date < b.date ? -1 : 1);
     return result;
   }
 })
@@ -18,6 +18,10 @@ const random_id = Math.floor(Math.random() * 1024).toString()
 
 const generate_chart = () => {
   let ctx = document.getElementById(random_id);
+  let chartStatus = Chart.getChart(random_id); // <canvas> id
+  if (chartStatus != undefined) {
+    chartStatus.destroy();
+  }
   const config = {
     data: {
       labels: filtered_wellness_assessments.value.map(x => x.date),
