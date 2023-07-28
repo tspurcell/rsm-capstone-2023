@@ -46,7 +46,8 @@ export default defineComponent({
       { label: 'Add Experience', to: '/' },
       { label: 'View Experiences', to: '/profiles' },
       { label: 'Add Wellness', to: '/wellness' },
-      { label: 'View Wellness', to: '/wellness/reports' }
+      { label: 'View Wellness', to: '/wellness/reports' },
+      { label: 'Payment Options', to: '/payment_options' }
     ])
     return {
       leftDrawerOpen,
