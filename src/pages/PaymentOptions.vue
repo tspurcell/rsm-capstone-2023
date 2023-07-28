@@ -434,7 +434,7 @@ const option_3 = computed(() => ({
 
 <template>
   <div class="row justify-center q-pa-md">
-    <div class="col-12 col-md-6">
+    <div class="col-12 col-lg-6">
       <q-card>
         <q-card-section>
           <div class="text-h5">Estimate your procedure costs and see your payment options.</div>
